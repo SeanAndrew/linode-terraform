@@ -8,7 +8,7 @@ resource "linode_instance" "nextcloud-instance" {
     region = "us-east"
     type = "g6-standard-2"
     authorized_keys = ["ssh-rsa AAAA...."]
-    root_pass = "terr4form-test"
+    root_pass = "password"
     stackscript_id = 888417
     swap_size = 256
     private_ip = true
